@@ -1,66 +1,10 @@
-## Foundry
-
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
-
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+expectation:
+-multiple mp4 files will be uploaded on the IPFS, each of them will be minted in this NFT contract.
+-For that I need to create the Metadata json and upload each on the IPFS
+-In the metadata there will be a link to the video and hashes of our names as well as the usual metadata like name description author and so on
+-everytime a video gets finished I will upload it, create the metadata and mint it in this contract.
+-It should have a token ID as a counting number since this is how most NFTs work.
+-I guess I make the minting process very customizable that everytime I mint I input the URL of the metadata with the minting call manually
+-the owner of the NFTs will be the multisig wallets address.
+-all that should be throughouthly tested on the sepolia testnet with a dummy video file (but that video file should have a similar Size as what I expect the real videos to be)
+-Name of the NFT Contract will be "web3ideation Legacy" and Symbol "W3IL"
