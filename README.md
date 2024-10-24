@@ -8,3 +8,19 @@ expectation:
 -the owner of the NFTs will be the multisig wallets address.
 -all that should be throughouthly tested on the sepolia testnet with a dummy video file (but that video file should have a similar Size as what I expect the real videos to be)
 -Name of the NFT Contract will be "web3ideation Legacy" and Symbol "W3IL"
+
+
+create an thumbnail by screenshoting the first slide that shows the title of the video and make this screenshot the square resolution or whatever what niklas uses for his thumbnails (300x300 or 500x500?)
+use console.web3.storage to upload the Video file but make sure "wrap in directory" is unchecked! (5GB are free)
+use the CID to create a metadata.json
+create hash of names (for example with this website https://keccak-256.4tools.net/) and double check the hash
+
+
+
+uploaded test Video at CID bafybeicqeknnmjdrpzpjqgfcrp4nx5ly6a2jhr7bspvhfszdxd4aqb5p5u
+https://ipfs.io/ipfs/bafybeicqeknnmjdrpzpjqgfcrp4nx5ly6a2jhr7bspvhfszdxd4aqb5p5u
+uploaded test preview at
+https://ipfs.io/ipfs/bafkreigl763gnxtfob5h5gmd5pbklufn564llqmavxa7hdcmnirnw72pwu
+uploaded test metadata at
+https://ipfs.io/ipfs/bafkreihnj7nlz6whld5all2d5ikt2whfstbfotkpbtwyhvi44k4cuvwwmq
+

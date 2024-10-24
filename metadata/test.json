@@ -1,0 +1,48 @@
+{
+    "name": "Web3ideation Legacy NFT #test",
+    "description": "This is our Vision Mission and businessplan test",
+    "creator": "Web3ideation Team",
+    "date_created": "2024-10-24T12:00:00Z", 
+    "type": "video",
+    "video": "https://ipfs.io/ipfs/bafybeicqeknnmjdrpzpjqgfcrp4nx5ly6a2jhr7bspvhfszdxd4aqb5p5u",
+    "animation_url": "https://ipfs.io/ipfs/bafybeicqeknnmjdrpzpjqgfcrp4nx5ly6a2jhr7bspvhfszdxd4aqb5p5u",
+    "CID": "bafybeicqeknnmjdrpzpjqgfcrp4nx5ly6a2jhr7bspvhfszdxd4aqb5p5u",
+    "image": "https://ipfs.io/ipfs/bafkreigl763gnxtfob5h5gmd5pbklufn564llqmavxa7hdcmnirnw72pwu",
+    "external_url": "https://www.Web3ideation.com",
+    "attributes": [
+        {
+            "key": "Name Hash #1",
+            "value": "a1610e488be64bf88c1db219b13e91adfb18ab0eb9fa43f14fb3ab48dcd2d2a5"
+        },
+        {
+            "key": "Name Hash #2",
+            "value": "e78cc831602f299450f605c06cbe88db25c1df80dda674e1c6e89bf042365d68"
+        },
+        {
+            "key": "Name Hash #3",
+            "value": "c9b65a31ebbe1e7402ff19c79859b7c241eb8bf06a743c90d717f777937fd6a1"
+        },
+        {
+            "trait_type": "Category",
+            "value": "Vision"
+        },
+        {
+            "trait_type": "Progress",
+            "value": "Test"
+        }
+    ],
+    "author_hashes": [
+        {
+            "trait_type": "Name Hash #1",
+            "value": "a1610e488be64bf88c1db219b13e91adfb18ab0eb9fa43f14fb3ab48dcd2d2a5"
+        },
+        {
+            "trait_type": "Name Hash #2",
+            "value": "e78cc831602f299450f605c06cbe88db25c1df80dda674e1c6e89bf042365d68"
+        },
+        {
+            "trait_type": "Name Hash #3",
+            "value": "c9b65a31ebbe1e7402ff19c79859b7c241eb8bf06a743c90d717f777937fd6a1"
+        }
+    ]
+}
