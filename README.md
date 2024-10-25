@@ -59,10 +59,13 @@ owners[0] = 0xE8dF60a93b2B328397a8CBf73f0d732aaa11e33D;
 owners[1] = 0x8a200122f666af83aF2D4f425aC7A35fa5491ca7;
 owners[2] = 0xEdC9b2CA57635C98064988A3D3Ad24f9Bb9ADc6A;
 deployer 0xE8dF60a93b2B328397a8CBf73f0d732aaa11e33D
-multisig wallet 0x92De4c3ccfBF089471eAC7cF84139243334B48C2
+multisig wallet 0x92De4 c3ccfBF089471eAC7cF84139243334B48C2
 legacy nft 0x3d5E2dA4970c00B0Eb7C5cc7644f2Cd1fd1872B6
 
 
 ok deployment, minting und transfer hat alles geklappt
 alle funktionen scheinen zu passen
 reicht das dann an tests für den mainnet deploy?
+
+ja alles getestet und fertig für den mainnet deploy!
+- Aber besser diese notizen privat speichern und das readme von cGPT erzeugen lassen
