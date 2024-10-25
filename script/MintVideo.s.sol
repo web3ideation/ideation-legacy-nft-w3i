@@ -5,8 +5,8 @@ import "forge-std/Script.sol";
 import "src/LegacyNFT.sol";
 
 contract MintLegacyNFT is Script {
-    address public constant MULTISIG_WALLET = 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512; // Replace with your deployed MultisigWallet contract address
-    address public constant LEGACY_NFT_ADDRESS = 0x5FbDB2315678afecb367f032d93F642f64180aa3; // Replace with your deployed LegacyNFT contract address
+    address public constant MULTISIG_WALLET = 0x92De4c3ccfBF089471eAC7cF84139243334B48C2; // Replace with your deployed MultisigWallet contract address
+    address public constant LEGACY_NFT_ADDRESS = 0x3d5E2dA4970c00B0Eb7C5cc7644f2Cd1fd1872B6; // Replace with your deployed LegacyNFT contract address
     LegacyNFT public legacyNFT;
 
     function setUp() public {

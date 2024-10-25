@@ -50,4 +50,19 @@ cast call 0x5fbdb2315678afecb367f032d93f642f64180aa3 "ownerOf(uint256)" 1 --rpc-
 
 -
 
-next step: since everything is deployed and the test nft has been minted now interact with it, check if the owner of it is the multisigwallet, if the uri is correct and then use the multisig wallet to send that nft away
+next step: now test it on sepolia (deploy an multisig instance with 3 owners, deploy the legacy nft, mint using the mintvideo script, and then use etherscans UI to send the legacy nft away, and also check other functions of the legacy nft if tthey work as intended (especially the ones i overrode))
+
+
+
+sepolia deployment
+owners[0] = 0xE8dF60a93b2B328397a8CBf73f0d732aaa11e33D;
+owners[1] = 0x8a200122f666af83aF2D4f425aC7A35fa5491ca7;
+owners[2] = 0xEdC9b2CA57635C98064988A3D3Ad24f9Bb9ADc6A;
+deployer 0xE8dF60a93b2B328397a8CBf73f0d732aaa11e33D
+multisig wallet 0x92De4c3ccfBF089471eAC7cF84139243334B48C2
+legacy nft 0x3d5E2dA4970c00B0Eb7C5cc7644f2Cd1fd1872B6
+
+
+ok deployment, minting und transfer hat alles geklappt
+alle funktionen scheinen zu passen
+reicht das dann an tests für den mainnet deploy?
