@@ -5,8 +5,8 @@ import "forge-std/Script.sol";
 import "src/LegacyNFT.sol";
 
 contract MintLegacyNFT is Script {
-    address public constant MULTISIG_WALLET = 0x0000000000000000000000000000000000000000; // Replace with your deployed MultisigWallet contract address
-    address public constant LEGACY_NFT_ADDRESS = 0x0000000000000000000000000000000000000000; // Replace with your deployed LegacyNFT contract address
+    address public constant MULTISIG_WALLET = 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512; // Replace with your deployed MultisigWallet contract address
+    address public constant LEGACY_NFT_ADDRESS = 0x5FbDB2315678afecb367f032d93F642f64180aa3; // Replace with your deployed LegacyNFT contract address
     LegacyNFT public legacyNFT;
 
     function setUp() public {
@@ -15,7 +15,7 @@ contract MintLegacyNFT is Script {
 
     function run() external {
         uint256 tokenId = 1; // Token ID (update accordingly for each minting)
-        string memory metadataURI = "QmYourMetadataCID"; // Replace with the actual URI/CID of the metadata
+        string memory metadataURI = "https://ipfs.io/ipfs/bafkreihnj7nlz6whld5all2d5ikt2whfstbfotkpbtwyhvi44k4cuvwwmq"; // Replace with the actual URI/CID of the metadata
 
         vm.startBroadcast();
         legacyNFT.mint(MULTISIG_WALLET, tokenId, metadataURI);
@@ -23,7 +23,7 @@ contract MintLegacyNFT is Script {
     }
 }
 
+// forge script script/MintVideo.s.sol --rpc-url http://localhost:8545 --broadcast --sender 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 // source .env
-// forge script script/MintLegacyNFT.s.sol --rpc-url $ANVIL_RPC_URL --broadcast --sender 0xe8df60a93b2b328397a8cbf73f0d732aaa11e33d
-// forge script script/MintLegacyNFT.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast --etherscan-api-key $ETHERSCAN_API_KEY --verify --account devKey --sender 0xe8df60a93b2b328397a8cbf73f0d732aaa11e33d
-// forge script script/MintLegacyNFT.s.sol --rpc-url $MAINNET_RPC_URL --broadcast --etherscan-api-key $ETHERSCAN_API_KEY --verify --account mainKey --sender 0x0000000000000000000000000000000000000000
+// forge script script/MintVideo.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast --etherscan-api-key $ETHERSCAN_API_KEY --verify --account devKey --sender 0xe8df60a93b2b328397a8cbf73f0d732aaa11e33d
+// forge script script/MintVideo.s.sol --rpc-url $MAINNET_RPC_URL --broadcast --etherscan-api-key $ETHERSCAN_API_KEY --verify --account mainKey --sender 0x0000000000000000000000000000000000000000

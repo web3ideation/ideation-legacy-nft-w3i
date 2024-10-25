@@ -24,3 +24,30 @@ https://ipfs.io/ipfs/bafkreigl763gnxtfob5h5gmd5pbklufn564llqmavxa7hdcmnirnw72pwu
 uploaded test metadata at
 https://ipfs.io/ipfs/bafkreihnj7nlz6whld5all2d5ikt2whfstbfotkpbtwyhvi44k4cuvwwmq
 
+
+Anvil deployment:
+owners[0] = 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266;
+owners[1] = 0x70997970C51812dc3A010C7d01b50e0d17dc79C8;
+owners[2] = 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC;
+owners[3] = 0x90F79bf6EB2c4f870365E785982E1f101E93b906;
+owners[4] = 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65;
+deployer 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+multisig wallet 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+legacy nft 0x5fbdb2315678afecb367f032d93f642f64180aa3
+
+
+owner1 propose the transfer of the nft to owner5 
+cast send 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 "safeTransferFromERC721(address,address,address,uint256)" 0x5fbdb2315678afecb367f032d93f642f64180aa3 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65 1 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+
+owner2 confirms
+cast send 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 "confirmTransaction(uint256)" 0 --private-key 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
+
+owner3 confirms and automatically executes
+cast send 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 "confirmTransaction(uint256)" 0 --private-key 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a
+
+expect owner of the legacyNFT tokenId 1 to be owner5 (0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65)
+cast call 0x5fbdb2315678afecb367f032d93f642f64180aa3 "ownerOf(uint256)" 1 --rpc-url http://127.0.0.1:8545
+
+-
+
+next step: since everything is deployed and the test nft has been minted now interact with it, check if the owner of it is the multisigwallet, if the uri is correct and then use the multisig wallet to send that nft away
