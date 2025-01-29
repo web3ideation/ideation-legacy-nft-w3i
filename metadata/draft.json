@@ -1,0 +1,34 @@
+{
+    "name": "Ideation DAO",
+    "description": "@Stefan? this is the Ideation DAO Video minted as a one and only Legacy NFT as part of the innovation lab Vision. It proves that we were the first ones and are the shit (w3i was here). The Utility is blabla",
+    "collection": "web3ideation Legacy NFT",
+    "creator": "web3ideation Team",
+    "date_created": "2024-10-24T12:00:00Z", 
+    "type": "video",
+    "video": "https://ipfs.io/ipfs/bafybeicqeknnmjdrpzpjqgfcrp4nx5ly6a2jhr7bspvhfszdxd4aqb5p5u",
+    "animation_url": "https://ipfs.io/ipfs/bafybeicqeknnmjdrpzpjqgfcrp4nx5ly6a2jhr7bspvhfszdxd4aqb5p5u",
+    "CID": "bafybeicqeknnmjdrpzpjqgfcrp4nx5ly6a2jhr7bspvhfszdxd4aqb5p5u",
+    "image": "https://ipfs.io/ipfs/bafkreigl763gnxtfob5h5gmd5pbklufn564llqmavxa7hdcmnirnw72pwu",
+    "external_url": "https://www.web3ideation.com",
+    "youtube_url": "https://www.youtube.com/?ksdfkj34asdf",
+    "attributes": [
+        {
+            "key": "Utility",
+            "value": "No Ideation Market Fees"
+        }
+    ],
+    "author_hashes": [
+        {
+            "trait_type": "Name Hash #1",
+            "value": "a1610e488be64bf88c1db219b13e91adfb18ab0eb9fa43f14fb3ab48dcd2d2a5"
+        },
+        {
+            "trait_type": "Name Hash #2",
+            "value": "e78cc831602f299450f605c06cbe88db25c1df80dda674e1c6e89bf042365d68"
+        },
+        {
+            "trait_type": "Name Hash #3",
+            "value": "c9b65a31ebbe1e7402ff19c79859b7c241eb8bf06a743c90d717f777937fd6a1"
+        }
+    ]
+}
