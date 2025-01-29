@@ -1,0 +1,34 @@
+Standardmäßige Metadaten-Felder gemäß ERC721
+name (string): Der Name des NFTs, z. B. "CryptoPunk #1234".
+description (string): Eine Beschreibung des NFTs, z. B. "Ein einzigartiger CryptoPunk".
+image (string): Ein Link zum Bild des NFTs, das in der Regel ebenfalls auf IPFS gehostet wird, z. B. "ipfs://Qm...image.png".
+Erweiterte und häufig verwendete Felder
+attributes (Array von Objekten): Eine Liste von Attributen oder Eigenschaften des NFTs. Jedes Attribut ist ein Objekt mit folgenden Feldern:
+
+trait_type (string): Der Typ des Merkmals, z. B. "Hintergrundfarbe", "Auge".
+value (string oder number): Der Wert des Merkmals, z. B. "Blau", "Selten".
+display_type (string, optional): Definiert den Darstellungsstil (z. B. "number", "boost_percentage").
+external_url (string): Ein Link zu einer Webseite, auf der das NFT näher beschrieben wird, z. B. "https://example-nft.io/1234".
+
+animation_url (string): Ein Link zu einer Animation oder einem Video, das das NFT repräsentiert. Wird oft für dynamische NFTs verwendet, z. B. "ipfs://Qm...animation.mp4".
+
+background_color (string): Eine HEX-Farbe für den Hintergrund des NFTs, z. B. "FFFFFF" (weiß).
+
+youtube_url (string): Ein Link zu einem YouTube-Video, das mit dem NFT verbunden ist.
+
+compiler (string): Informationen zum Compiler oder Ersteller-Tool, z. B. "NFT Generator v1.0".
+
+date (number): Ein Zeitstempel oder Datum der Erstellung, z. B. 1631830400.
+
+creator (string): Der Ersteller des NFTs, oft als Adresse oder Benutzername angegeben.
+
+file_url (string): Ein Link zu einer Datei, die das NFT repräsentiert, z. B. ein Dokument, 3D-Modelle oder Audiodateien (ipfs://Qm...model.glb).
+
+collection (object): Informationen zur Kollektion, zu der das NFT gehört, z. B.:
+
+name (string): Der Name der Kollektion.
+family (string): Eine weiter gefasste Kategorisierung, z. B. "CryptoPunks".
+properties (object): Ein Feld, das zusätzliche Details zum NFT enthält, oft in Unterfeldern, z. B.:
+
+files (Array von Objekten): Enthält Dateiinformationen wie Dateinamen, Typen ("image/png", "video/mp4") und Größe.
+tags (Array von string): Tags zur Beschreibung des NFTs, z. B. ["Kunst", "digital", "selten"].
