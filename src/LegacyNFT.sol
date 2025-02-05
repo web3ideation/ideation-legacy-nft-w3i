@@ -8,21 +8,14 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract LegacyNFT is ERC721Enumerable, ERC721URIStorage, Ownable {
     // Event for logging minting of new tokens
     event TokenMinted(uint256 indexed tokenId, address indexed recipient, string tokenURI);
-    event TokenBurned(uint256 indexed tokenId, address indexed owner);
 
-    constructor() ERC721("web3ideation Legacy", "W3IL") Ownable(msg.sender) {}
+    constructor() ERC721("Web 3 Innovation Lab Legacy NFTs", "W3ILLN") Ownable(msg.sender) {}
 
     function mint(address recipient, uint256 tokenId, string memory _tokenURI) public onlyOwner {
         require(_ownerOf(tokenId) == address(0), "Token ID already minted");
         _safeMint(recipient, tokenId);
         _setTokenURI(tokenId, _tokenURI);
         emit TokenMinted(tokenId, recipient, _tokenURI);
-    }
-
-    function burn(uint256 tokenId) public {
-        require(ownerOf(tokenId) == msg.sender, "you are not the owner of this NFT");
-        _burn(tokenId);
-        emit TokenBurned(tokenId, msg.sender);
     }
 
     function supportsInterface(bytes4 interfaceId)

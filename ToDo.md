@@ -69,3 +69,11 @@ reicht das dann an tests für den mainnet deploy?
 
 ja alles getestet und fertig für den mainnet deploy!
 - Aber besser diese notizen privat speichern und das readme von cGPT erzeugen lassen
+
+umbenennen von 'web3ideation' auf 'Web 3 Innovation Lab Legacy NFTs' und symbol auch 'W3ILLN' ✅
+total supply is 0?? ✅
+understand tokenByIndex and tokenOfOwnerByIndex ✅
+understand isApporvedForAll ✅
+test supportsInterface ✅
+
+deploy on mainnet ⬅️
