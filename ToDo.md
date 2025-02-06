@@ -76,4 +76,4 @@ understand tokenByIndex and tokenOfOwnerByIndex ✅
 understand isApporvedForAll ✅
 test supportsInterface ✅
 
-deploy on mainnet ⬅️
+deploy to mainnet ⬅️

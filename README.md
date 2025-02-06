@@ -1,6 +1,7 @@
 # LegacyNFT
 
 A straightforward ERC721 implementation using [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) libraries. This contract allows the **owner** (deployer) to mint and any token holder to burn their NFT.
+Deployed on the Ethereum Mainnet at '0x007392c33CCe375634d264a42cDCB21fbFbE47aa'
 
 ---
 
