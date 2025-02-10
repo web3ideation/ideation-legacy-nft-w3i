@@ -2,21 +2,128 @@
 
 A straightforward ERC721 implementation using [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) libraries. This contract allows the **owner** (deployer) to mint and any token holder to burn their NFT.
 Deployed on the Ethereum Mainnet at '0x007392c33CCe375634d264a42cDCB21fbFbE47aa'
-Media uploaded to IPFS (https://ipfs.io/ipfs/): 
-Web 3 Innovation Lab (Token ID: ‘1’): 'bafybeiae5q5y5xux7xvtx6qatdwjfitri2aoux75yze6ohrxyzdqxfsivu' 
-Thumbnail: 'bafkreigz2c4yzikjqjuzwbergr3vstou7gjoyeb7hjvzu67lil7lkhglf4'
-‘Web 3 Ideation’ (Token ID: ‘2’): 'bafybeieyp2mditkztkran7brar2fu6imt4o4fg4prhtjrb2bxe53aqmvcq'
-Thumbnail: 'bafkreif5mbynpa3lxnufgljbkdbu2fbeb2s3oivf52kygha36f5sdw4q34'
-‘Web 3 Ideation Pool’ (Token ID: ‘3’): 'bafybeierw7ikodpte3pr5lmqyomsgqs4jxv2vt3hdwwfttbvultjozxbsy'
-Thumbnail: 'bafkreihmgzwscpcmwdbtqajtl466pqfa5r3tgw74o2ae7v6dr34tap4eku'
-‘Web 3 Ideation Market’ (Token ID: ‘4’): 'bafybeidaw4xytm4nv54wxizyfogxinzjhlyljeap3lod6ghqj2egokvq2a'
-Thumbnail: 'bafkreibdn7jic53gkgwcmahneulwvzvozsa3erkhaxv25hadnve2ndemwq'
-‘Web 3 Ideation Hive’ (Token ID: ‘5’): 'bafybeih2kgrbcl5dkvj6ji5b5im2z5vfjsj5jq6dr5fx2xe37yrgtpkqxm'
-Thumbnail: 'bafkreiaxoorspptb4ehqtzedlokqt3we5u6fhegj6klozdxyafvzxzjiui'
-‘Web 3 Ideation’ Game (Token ID: ‘6’): 'bafybeicwcvjnzte43l43zia5tv6ysx4oqw4wrj2mpw4k6tsf7r5pw7xnui'
-Thumbnail: 'bafkreifg4tnc7juvzjk5p7m5auvumrpqvk5k5zdqmuibvc4mnesd3tr2ra'
-‘Web 3 Ideation’ DAO (Token ID: ‘7’): 'bafybeido5mo2g3upmtedfhtz3j2guzdze4hdckhhxqe32drky5nb6lfqw4'
-Thumbnail: 'bafkreigxlq4xum7d77pmonf4bovm2zrh6qaldtdo4pvdy3o3tiw3czknoq'
+Metadata uploaded to IPFS (https://ipfs.io/ipfs/): 
+Web 3 Innovation Lab (Token ID: ‘1’): 'bafkreigqtvo4qowmivpzvfnjxyimawhzi2uys6gzmv6ragmkzzmqukiiti' 
+https://ipfs.io/ipfs/bafkreigqtvo4qowmivpzvfnjxyimawhzi2uys6gzmv6ragmkzzmqukiiti
+
+‘Web3 Ideation’ (Token ID: ‘2’): 'bafkreigwyj6kz7bawjh3t34pol5smsvyatmvo6kd6qabuite34mrutnpbe'
+https://ipfs.io/ipfs/bafkreigwyj6kz7bawjh3t34pol5smsvyatmvo6kd6qabuite34mrutnpbe
+
+‘Ideation Pool’ (Token ID: ‘3’): 'bafkreiea637wfe3xfuk5omgs6alrlrtgyyaqa4kkq5q7spo3sqmnpnl2oq'
+https://ipfs.io/ipfs/bafkreiea637wfe3xfuk5omgs6alrlrtgyyaqa4kkq5q7spo3sqmnpnl2oq
+
+‘Ideation Market’ (Token ID: ‘4’): 'bafkreif5qhbet4fagesxfvke64fb2rble72ac5l75w26repomhat7bhcwq'
+https://ipfs.io/ipfs/bafkreif5qhbet4fagesxfvke64fb2rble72ac5l75w26repomhat7bhcwq
+
+‘Ideation Hive’ (Token ID: ‘5’): 'bafkreih6uaq2anzkcofhqtuw2tkucnrx4yxz4bij4f6gxsnhpj4et4tfky'
+https://ipfs.io/ipfs/bafkreih6uaq2anzkcofhqtuw2tkucnrx4yxz4bij4f6gxsnhpj4et4tfky
+
+‘Ideation’ Game (Token ID: ‘6’): 'bafkreiex7i5nr2ihyk3ptlengivnbpxzpo44vz7b53vamtnb3bafe6huyu'
+https://ipfs.io/ipfs/bafkreiex7i5nr2ihyk3ptlengivnbpxzpo44vz7b53vamtnb3bafe6huyu
+
+‘Ideation’ DAO (Token ID: ‘7’): 'bafkreib4h3xta2psda43rb2qotciq4onpgqhrgeenzpmg2jb7w72yqid7u'
+https://ipfs.io/ipfs/bafkreib4h3xta2psda43rb2qotciq4onpgqhrgeenzpmg2jb7w72yqid7u
+
+---
+
+Minting Info
+
+---
+
+legacy nft contract: 0x007392c33CCe375634d264a42cDCB21fbFbE47aa
+
+---
+
+Web 3 Innovation Lab ✅
+
+TokenId
+1
+
+To
+0x66dcc49c47ebc505a4b560fD14Dc143f0098407f
+
+URI
+https://ipfs.io/ipfs/bafkreigqtvo4qowmivpzvfnjxyimawhzi2uys6gzmv6ragmkzzmqukiiti
+
+---
+
+Web3 Ideation ✅
+
+TokenId
+2
+
+To
+0xd5A4Ed9d14bc273ce995B4E7E8fa0a21E59F8F3b
+
+URI
+https://ipfs.io/ipfs/bafkreigwyj6kz7bawjh3t34pol5smsvyatmvo6kd6qabuite34mrutnpbe
+
+---
+
+Ideation Pool ✅
+
+TokenId
+3
+
+To
+0x66dcc49c47ebc505a4b560fD14Dc143f0098407f
+
+URI
+https://ipfs.io/ipfs/bafkreiea637wfe3xfuk5omgs6alrlrtgyyaqa4kkq5q7spo3sqmnpnl2oq
+
+---
+
+Ideation Market ✅
+
+TokenId
+4
+
+To
+0x5a7c04218942c1c9baED35289A9b3eDfEd6F216F
+
+URI
+https://ipfs.io/ipfs/bafkreif5qhbet4fagesxfvke64fb2rble72ac5l75w26repomhat7bhcwq
+
+---
+
+Ideation Hive ✅
+
+TokenId
+5
+
+To
+0xBae2957B8c6CC7D39b7fDF5e82Cf8C467B86Be40
+
+URI
+https://ipfs.io/ipfs/bafkreih6uaq2anzkcofhqtuw2tkucnrx4yxz4bij4f6gxsnhpj4et4tfky
+
+---
+
+Ideation Game ✅
+
+TokenId
+6
+
+To
+0x66dcc49c47ebc505a4b560fD14Dc143f0098407f
+
+URI
+https://ipfs.io/ipfs/bafkreiex7i5nr2ihyk3ptlengivnbpxzpo44vz7b53vamtnb3bafe6huyu
+
+---
+
+Ideation DAO
+
+TokenId
+7
+
+To
+0x66dcc49c47ebc505a4b560fD14Dc143f0098407f
+
+URI
+https://ipfs.io/ipfs/bafkreib4h3xta2psda43rb2qotciq4onpgqhrgeenzpmg2jb7w72yqid7u
+
+
 
 
 ---

@@ -76,4 +76,6 @@ understand tokenByIndex and tokenOfOwnerByIndex ✅
 understand isApporvedForAll ✅
 test supportsInterface ✅
 
-deploy to mainnet ⬅️
+deploy to mainnet ✅
+
+format the ipfs info in the readme nicer
